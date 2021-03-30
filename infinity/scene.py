@@ -1,7 +1,6 @@
 #  INFINITY ENGINE:
-# Game window module with
-# GameWindow class and
-# load_from_json function
+# Game scene module with
+# GameScene class
 
 # you can find moderngl_window's
 # documentation here:
@@ -14,7 +13,7 @@ import moderngl_window as mglw
 import moderngl as mgl
 
 
-class GameWindow(mglw.WindowConfig):
+class GameScene(mglw.WindowConfig):
 	gl_version = (3, 3)
 	window_size = (1920, 1080)  # it can be modified
 
